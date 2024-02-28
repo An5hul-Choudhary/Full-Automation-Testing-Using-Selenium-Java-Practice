@@ -1,0 +1,7 @@
+<component name="DependencyValidationManager">
+  <state>
+    <option name="SKIP_IMPORT_STATEMENTS" value="true" />
+    <deny_rule from_scope="All" to_scope="All" is_deny="true" />
+    <deny_rule from_scope="All" to_scope="All" is_deny="false" />
+  </state>
+</component>

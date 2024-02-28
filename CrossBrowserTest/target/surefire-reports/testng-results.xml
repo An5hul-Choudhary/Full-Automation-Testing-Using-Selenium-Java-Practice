@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="37112" started-at="2022-11-12T10:35:09 EST" finished-at="2022-11-12T10:35:46 EST">
+    <groups>
+    </groups>
+    <test name="Test-1" duration-ms="9751" started-at="2022-11-12T10:35:09 EST" finished-at="2022-11-12T10:35:18 EST">
+      <class name="rahulshettyacademy.TestDemo">
+        <test-method status="PASS" signature="titleCheck()[pri:0, instance:rahulshettyacademy.TestDemo@268f106e]" name="titleCheck" duration-ms="9584" started-at="2022-11-12T10:35:09 EST" finished-at="2022-11-12T10:35:18 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- rahulshettyacademy.TestDemo -->
+    </test> <!-- Test-1 -->
+    <test name="Test-0" duration-ms="21412" started-at="2022-11-12T10:35:09 EST" finished-at="2022-11-12T10:35:30 EST">
+      <class name="rahulshettyacademy.TestDemo">
+        <test-method status="PASS" signature="titleCheck()[pri:0, instance:rahulshettyacademy.TestDemo@7161d8d1]" name="titleCheck" duration-ms="21288" started-at="2022-11-12T10:35:09 EST" finished-at="2022-11-12T10:35:30 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheck -->
+      </class> <!-- rahulshettyacademy.TestDemo -->
+    </test> <!-- Test-0 -->
+    <test name="TestGoogle-0" duration-ms="22121" started-at="2022-11-12T10:35:18 EST" finished-at="2022-11-12T10:35:41 EST">
+      <class name="rahulshettyacademy.TestDemo2">
+        <test-method status="PASS" signature="titleCheckGoogle()[pri:0, instance:rahulshettyacademy.TestDemo2@6440112d]" name="titleCheckGoogle" duration-ms="22076" started-at="2022-11-12T10:35:18 EST" finished-at="2022-11-12T10:35:40 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheckGoogle -->
+      </class> <!-- rahulshettyacademy.TestDemo2 -->
+    </test> <!-- TestGoogle-0 -->
+    <test name="TestGoogle-1" duration-ms="15693" started-at="2022-11-12T10:35:30 EST" finished-at="2022-11-12T10:35:46 EST">
+      <class name="rahulshettyacademy.TestDemo2">
+        <test-method status="PASS" signature="titleCheckGoogle()[pri:0, instance:rahulshettyacademy.TestDemo2@183ec003]" name="titleCheckGoogle" duration-ms="15606" started-at="2022-11-12T10:35:30 EST" finished-at="2022-11-12T10:35:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleCheckGoogle -->
+      </class> <!-- rahulshettyacademy.TestDemo2 -->
+    </test> <!-- TestGoogle-1 -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests">
+
+    <listeners>
+        <listener class-name="MainTests.TestComponents.Listeners"/>
+
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="C:/SeleniumUsingJava/MavenProject/src/test">
+        <classes>
+            <class name="MainTests.SubmitTest">
+                <methods>
+                    <include name="submitOrder"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

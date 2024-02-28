@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="2">
+    <listeners>
+        <listener class-name="TestNGG.Listeners"></listener>
+    </listeners>
+    <parameter name="URL" value="www.qaclickacademy.com"></parameter>
+    <test verbose="2" preserve-order="true"
+          name="C:/SeleniumUsingJava/FirstSeleniumJava/src/main/java/TestNGG/TestNGOne.java">
+        <parameter name="testURL" value="www.google.com"></parameter>
+        <parameter name="SecondParam" value="123456"></parameter>
+        <groups>
+            <run>
+                <exclude name="Smoke"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="TestNGG.TestNGOne"/>
+            <class name="TestNGG.Day3"/>
+
+        </classes>
+    </test>
+    
+   <!-- <test name="Car Loan">
+
+        <classes>
+
+            <class name="TestNGG.Day3">
+                <methods>
+                    <exclude name="mobile.*"></exclude>
+                </methods>
+            </class>
+
+        </classes>
+
+
+    </test>
+    -->
+    
+</suite>

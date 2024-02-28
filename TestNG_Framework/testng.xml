@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/SeleniumUsingJava/FirstSeleniumJava/src/main/java/TestNGG">
+        <classes>
+            <class name="TestNGG.TestNGOne">
+                <methods>
+                    <include name="testing"/>
+                    <include name="secondTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

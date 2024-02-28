@@ -1,0 +1,19 @@
+userName: rahulshettbm6tXG
+accessKey: avTb7CjxY6Ga6KcdswJe
+framework: testng
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Firefox
+    browserVersion: 104.0
+  - os: OS X
+    osVersion: Monterey
+    browserName: Chrome
+    browserVersion: 106.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: browserstack-build-1
+projectName: BrowserStack Sample
+debug: false
+networkLogs: false
+consoleLogs: errors

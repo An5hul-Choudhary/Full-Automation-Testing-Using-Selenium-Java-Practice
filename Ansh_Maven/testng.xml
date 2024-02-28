@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/SeleniumUsingJava/Ansh_Maven/src/test/java/org/example/SeleniumTest.java">
+        <classes>
+            <class name="org.example.SeleniumTest">
+                <methods>
+                    <include name="postJira"/>
+                    <include name="deleteTwitter"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
